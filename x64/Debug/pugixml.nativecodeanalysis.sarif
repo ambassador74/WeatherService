@@ -1,0 +1,964 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Переменная \"pugi::xml_attribute_struct::header\" не инициализирована. Всегда инициализируйте переменную-член (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Тимофей/Desktop/papka huyapka/programming/1  kurs/profession/lab7/WeatherService/WeatherService/pugixml.cpp"
+                },
+                "region": {
+                  "startLine": 1112,
+                  "startColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "pugi::xml_attribute_struct::{ctor}",
+                  "decoratedName": "??0xml_attribute_struct@pugi@@QEAA@PEAUxml_memory_page@?A0x974899f5@impl@1@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "pugi::xml_attribute_struct::header"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Переменная \"pugi::xml_node_struct::header\" не инициализирована. Всегда инициализируйте переменную-член (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Тимофей/Desktop/papka huyapka/programming/1  kurs/profession/lab7/WeatherService/WeatherService/pugixml.cpp"
+                },
+                "region": {
+                  "startLine": 1128,
+                  "startColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "pugi::xml_node_struct::{ctor}",
+                  "decoratedName": "??0xml_node_struct@pugi@@QEAA@PEAUxml_memory_page@?A0x974899f5@impl@1@W4xml_node_type@1@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "pugi::xml_node_struct::header"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Переменная \"pugi::impl::`anonymous-namespace'::xml_buffered_writer::scratch\" не инициализирована. Всегда инициализируйте переменную-член (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Тимофей/Desktop/papka huyapka/programming/1  kurs/profession/lab7/WeatherService/WeatherService/pugixml.cpp"
+                },
+                "region": {
+                  "startLine": 3748,
+                  "startColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "pugi::impl::`anonymous-namespace'::xml_buffered_writer::{ctor}",
+                  "decoratedName": "??0xml_buffered_writer@?A0x974899f5@impl@pugi@@QEAA@AEAVxml_writer@3@W4xml_encoding@3@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "pugi::impl::`anonymous-namespace'::xml_buffered_writer::scratch"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Переменная \"pugi::impl::`anonymous-namespace'::xml_buffered_writer::buffer\" не инициализирована. Всегда инициализируйте переменную-член (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Тимофей/Desktop/papka huyapka/programming/1  kurs/profession/lab7/WeatherService/WeatherService/pugixml.cpp"
+                },
+                "region": {
+                  "startLine": 3748,
+                  "startColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "pugi::impl::`anonymous-namespace'::xml_buffered_writer::{ctor}",
+                  "decoratedName": "??0xml_buffered_writer@?A0x974899f5@impl@pugi@@QEAA@AEAVxml_writer@3@W4xml_encoding@3@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "pugi::impl::`anonymous-namespace'::xml_buffered_writer::buffer"
+          }
+        },
+        {
+          "ruleId": "C28182",
+          "message": {
+            "text": "Разыменование пустого (NULL) указателя. \"dit\" содержит то же значение NULL, которое находилось в \"copy\". "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Тимофей/Desktop/papka huyapka/programming/1  kurs/profession/lab7/WeatherService/WeatherService/pugixml.cpp"
+                },
+                "region": {
+                  "startLine": 4519,
+                  "startColumn": 5,
+                  "endLine": 4519,
+                  "endColumn": 14
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "pugi::impl::`anonymous-namespace'::node_copy_tree",
+                  "decoratedName": "?node_copy_tree@?A0x974899f5@impl@pugi@@YAXPEAUxml_node_struct@3@0@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Тимофей/Desktop/papka huyapka/programming/1  kurs/profession/lab7/WeatherService/WeatherService/pugixml.cpp"
+                          },
+                          "region": {
+                            "startLine": 4478,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Тимофей/Desktop/papka huyapka/programming/1  kurs/profession/lab7/WeatherService/WeatherService/pugixml.cpp"
+                          },
+                          "region": {
+                            "startLine": 4479,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Тимофей/Desktop/papka huyapka/programming/1  kurs/profession/lab7/WeatherService/WeatherService/pugixml.cpp"
+                          },
+                          "region": {
+                            "startLine": 4481,
+                            "startColumn": 21
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Тимофей/Desktop/papka huyapka/programming/1  kurs/profession/lab7/WeatherService/WeatherService/pugixml.cpp"
+                          },
+                          "region": {
+                            "startLine": 4483,
+                            "startColumn": 20
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Тимофей/Desktop/papka huyapka/programming/1  kurs/profession/lab7/WeatherService/WeatherService/pugixml.cpp"
+                          },
+                          "region": {
+                            "startLine": 4484,
+                            "startColumn": 20
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Тимофей/Desktop/papka huyapka/programming/1  kurs/profession/lab7/WeatherService/WeatherService/pugixml.cpp"
+                          },
+                          "region": {
+                            "startLine": 4486,
+                            "startColumn": 14
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Тимофей/Desktop/papka huyapka/programming/1  kurs/profession/lab7/WeatherService/WeatherService/pugixml.cpp"
+                          },
+                          "region": {
+                            "startLine": 4489,
+                            "startColumn": 4
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Тимофей/Desktop/papka huyapka/programming/1  kurs/profession/lab7/WeatherService/WeatherService/pugixml.cpp"
+                          },
+                          "region": {
+                            "startLine": 4492,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Тимофей/Desktop/papka huyapka/programming/1  kurs/profession/lab7/WeatherService/WeatherService/pugixml.cpp"
+                          },
+                          "region": {
+                            "startLine": 4494,
+                            "startColumn": 22
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Тимофей/Desktop/papka huyapka/programming/1  kurs/profession/lab7/WeatherService/WeatherService/pugixml.cpp"
+                          },
+                          "region": {
+                            "startLine": 4496,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Тимофей/Desktop/papka huyapka/programming/1  kurs/profession/lab7/WeatherService/WeatherService/pugixml.cpp"
+                          },
+                          "region": {
+                            "startLine": 4498,
+                            "startColumn": 24
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Тимофей/Desktop/papka huyapka/programming/1  kurs/profession/lab7/WeatherService/WeatherService/pugixml.cpp"
+                          },
+                          "region": {
+                            "startLine": 4500,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Тимофей/Desktop/papka huyapka/programming/1  kurs/profession/lab7/WeatherService/WeatherService/pugixml.cpp"
+                          },
+                          "region": {
+                            "startLine": 4502,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Тимофей/Desktop/papka huyapka/programming/1  kurs/profession/lab7/WeatherService/WeatherService/pugixml.cpp"
+                          },
+                          "region": {
+                            "startLine": 4503,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Тимофей/Desktop/papka huyapka/programming/1  kurs/profession/lab7/WeatherService/WeatherService/pugixml.cpp"
+                          },
+                          "region": {
+                            "startLine": 4486,
+                            "startColumn": 14
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Тимофей/Desktop/papka huyapka/programming/1  kurs/profession/lab7/WeatherService/WeatherService/pugixml.cpp"
+                          },
+                          "region": {
+                            "startLine": 4489,
+                            "startColumn": 4
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Тимофей/Desktop/papka huyapka/programming/1  kurs/profession/lab7/WeatherService/WeatherService/pugixml.cpp"
+                          },
+                          "region": {
+                            "startLine": 4492,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Тимофей/Desktop/papka huyapka/programming/1  kurs/profession/lab7/WeatherService/WeatherService/pugixml.cpp"
+                          },
+                          "region": {
+                            "startLine": 4494,
+                            "startColumn": 22
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Тимофей/Desktop/papka huyapka/programming/1  kurs/profession/lab7/WeatherService/WeatherService/pugixml.cpp"
+                          },
+                          "region": {
+                            "startLine": 4496,
+                            "startColumn": 9
+                          }
+                        },
+                        "message": {
+                          "text": "\"dit\" может быть равно NULL (Пропустить эту ветвь)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Тимофей/Desktop/papka huyapka/programming/1  kurs/profession/lab7/WeatherService/WeatherService/pugixml.cpp"
+                          },
+                          "region": {
+                            "startLine": 4512,
+                            "startColumn": 12
+                          }
+                        },
+                        "message": {
+                          "text": "Пропустить эту ветвь (предполагается, что \"sit->next_sibling\" равно false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Тимофей/Desktop/papka huyapka/programming/1  kurs/profession/lab7/WeatherService/WeatherService/pugixml.cpp"
+                          },
+                          "region": {
+                            "startLine": 4518,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Тимофей/Desktop/papka huyapka/programming/1  kurs/profession/lab7/WeatherService/WeatherService/pugixml.cpp"
+                          },
+                          "region": {
+                            "startLine": 4519,
+                            "startColumn": 9
+                          }
+                        },
+                        "message": {
+                          "text": "\"dit\" разыменовано, но, возможно, по-прежнему равно NULL"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6054",
+          "message": {
+            "text": "Возможно, строка \"mantissa_buffer\" не завершается нулем."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Тимофей/Desktop/papka huyapka/programming/1  kurs/profession/lab7/WeatherService/WeatherService/pugixml.cpp"
+                },
+                "region": {
+                  "startLine": 8529,
+                  "startColumn": 10,
+                  "endLine": 8529,
+                  "endColumn": 90
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "pugi::impl::`anonymous-namespace'::convert_number_to_string",
+                  "decoratedName": "?convert_number_to_string@?A0x974899f5@impl@pugi@@YA?AVxpath_string@123@NPEAUxpath_allocator@123@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Тимофей/Desktop/papka huyapka/programming/1  kurs/profession/lab7/WeatherService/WeatherService/pugixml.cpp"
+                          },
+                          "region": {
+                            "startLine": 8518,
+                            "startColumn": 17
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Тимофей/Desktop/papka huyapka/programming/1  kurs/profession/lab7/WeatherService/WeatherService/pugixml.cpp"
+                          },
+                          "region": {
+                            "startLine": 8519,
+                            "startColumn": 7
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Тимофей/Desktop/papka huyapka/programming/1  kurs/profession/lab7/WeatherService/WeatherService/pugixml.cpp"
+                          },
+                          "region": {
+                            "startLine": 8522,
+                            "startColumn": 8
+                          }
+                        },
+                        "message": {
+                          "text": "Это выражение может привести к тому, что \"mantissa_buffer\" не будет завершаться нулем"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Тимофей/Desktop/papka huyapka/programming/1  kurs/profession/lab7/WeatherService/WeatherService/pugixml.cpp"
+                          },
+                          "region": {
+                            "startLine": 8524,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Тимофей/Desktop/papka huyapka/programming/1  kurs/profession/lab7/WeatherService/WeatherService/pugixml.cpp"
+                          },
+                          "region": {
+                            "startLine": 8525,
+                            "startColumn": 7
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Тимофей/Desktop/papka huyapka/programming/1  kurs/profession/lab7/WeatherService/WeatherService/pugixml.cpp"
+                          },
+                          "region": {
+                            "startLine": 8526,
+                            "startColumn": 38
+                          }
+                        },
+                        "message": {
+                          "text": "\"mantissa_buffer\" является выходными данными из \"pugi::impl::`anonymous-namespace'::convert_number_to_mantissa_exponent\" (объявлено в строке 8472)"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Тимофей/Desktop/papka huyapka/programming/1  kurs/profession/lab7/WeatherService/WeatherService/pugixml.cpp"
+                          },
+                          "region": {
+                            "startLine": 8529,
+                            "startColumn": 10
+                          }
+                        },
+                        "message": {
+                          "text": "\"mantissa_buffer\" является входными данными для \"strlen\" (объявлено в c:\\program files (x86)\\windows kits\\10\\include\\10.0.22621.0\\ucrt\\string.h:215)"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Тимофей/Desktop/papka huyapka/programming/1  kurs/profession/lab7/WeatherService/WeatherService/pugixml.cpp"
+                          },
+                          "region": {
+                            "startLine": 8529,
+                            "startColumn": 10
+                          }
+                        },
+                        "message": {
+                          "text": "\"mantissa_buffer\" должно завершаться нулем в соответствии с SAL-аннотацией для \"strlen\""
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Переменная \"pugi::impl::`anonymous-namespace'::xpath_variable_boolean::name\" не инициализирована. Всегда инициализируйте переменную-член (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Тимофей/Desktop/papka huyapka/programming/1  kurs/profession/lab7/WeatherService/WeatherService/pugixml.cpp"
+                },
+                "region": {
+                  "startLine": 8860,
+                  "startColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "pugi::impl::`anonymous-namespace'::xpath_variable_boolean::{ctor}",
+                  "decoratedName": "??0xpath_variable_boolean@?A0x974899f5@impl@pugi@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "pugi::impl::`anonymous-namespace'::xpath_variable_boolean::name"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Переменная \"pugi::impl::`anonymous-namespace'::xpath_variable_number::name\" не инициализирована. Всегда инициализируйте переменную-член (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Тимофей/Desktop/papka huyapka/programming/1  kurs/profession/lab7/WeatherService/WeatherService/pugixml.cpp"
+                },
+                "region": {
+                  "startLine": 8870,
+                  "startColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "pugi::impl::`anonymous-namespace'::xpath_variable_number::{ctor}",
+                  "decoratedName": "??0xpath_variable_number@?A0x974899f5@impl@pugi@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "pugi::impl::`anonymous-namespace'::xpath_variable_number::name"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Переменная \"pugi::impl::`anonymous-namespace'::xpath_variable_string::name\" не инициализирована. Всегда инициализируйте переменную-член (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Тимофей/Desktop/papka huyapka/programming/1  kurs/profession/lab7/WeatherService/WeatherService/pugixml.cpp"
+                },
+                "region": {
+                  "startLine": 8880,
+                  "startColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "pugi::impl::`anonymous-namespace'::xpath_variable_string::{ctor}",
+                  "decoratedName": "??0xpath_variable_string@?A0x974899f5@impl@pugi@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "pugi::impl::`anonymous-namespace'::xpath_variable_string::name"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Переменная \"pugi::impl::`anonymous-namespace'::xpath_variable_node_set::name\" не инициализирована. Всегда инициализируйте переменную-член (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Тимофей/Desktop/papka huyapka/programming/1  kurs/profession/lab7/WeatherService/WeatherService/pugixml.cpp"
+                },
+                "region": {
+                  "startLine": 8895,
+                  "startColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "pugi::impl::`anonymous-namespace'::xpath_variable_node_set::{ctor}",
+                  "decoratedName": "??0xpath_variable_node_set@?A0x974899f5@impl@pugi@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "pugi::impl::`anonymous-namespace'::xpath_variable_node_set::name"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Переменная \"pugi::impl::`anonymous-namespace'::xpath_ast_node::_data\" не инициализирована. Всегда инициализируйте переменную-член (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Тимофей/Desktop/papka huyapka/programming/1  kurs/profession/lab7/WeatherService/WeatherService/pugixml.cpp"
+                },
+                "region": {
+                  "startLine": 10510,
+                  "startColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "pugi::impl::`anonymous-namespace'::xpath_ast_node::{ctor}",
+                  "decoratedName": "??0xpath_ast_node@?A0x974899f5@impl@pugi@@QEAA@W4ast_type_t@123@W4xpath_value_type@3@PEAV0123@2@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "pugi::impl::`anonymous-namespace'::xpath_ast_node::_data"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Переменная \"pugi::impl::`anonymous-namespace'::xpath_ast_node::_data\" не инициализирована. Всегда инициализируйте переменную-член (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Тимофей/Desktop/papka huyapka/programming/1  kurs/profession/lab7/WeatherService/WeatherService/pugixml.cpp"
+                },
+                "region": {
+                  "startLine": 10522,
+                  "startColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "pugi::impl::`anonymous-namespace'::xpath_ast_node::{ctor}",
+                  "decoratedName": "??0xpath_ast_node@?A0x974899f5@impl@pugi@@QEAA@W4ast_type_t@123@PEAV0123@1W4predicate_t@123@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "pugi::impl::`anonymous-namespace'::xpath_ast_node::_data"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Переменная \"pugi::impl::`anonymous-namespace'::xpath_parser::_scratch\" не инициализирована. Всегда инициализируйте переменную-член (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Тимофей/Desktop/papka huyapka/programming/1  kurs/profession/lab7/WeatherService/WeatherService/pugixml.cpp"
+                },
+                "region": {
+                  "startLine": 12294,
+                  "startColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "pugi::impl::`anonymous-namespace'::xpath_parser::{ctor}",
+                  "decoratedName": "??0xpath_parser@?A0x974899f5@impl@pugi@@QEAA@PEBDPEAVxpath_variable_set@3@PEAUxpath_allocator@123@PEAUxpath_parse_result@3@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "pugi::impl::`anonymous-namespace'::xpath_parser::_scratch"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Переменная \"pugi::impl::`anonymous-namespace'::xml_stream_chunk<wchar_t>::data\" не инициализирована. Всегда инициализируйте переменную-член (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Тимофей/Desktop/papka huyapka/programming/1  kurs/profession/lab7/WeatherService/WeatherService/pugixml.cpp"
+                },
+                "region": {
+                  "startLine": 4921,
+                  "startColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "pugi::impl::`anonymous-namespace'::xml_stream_chunk<wchar_t>::{ctor}",
+                  "decoratedName": "??0?$xml_stream_chunk@_W@?A0x974899f5@impl@pugi@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "pugi::impl::`anonymous-namespace'::xml_stream_chunk<wchar_t>::data"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Переменная \"pugi::impl::`anonymous-namespace'::xml_stream_chunk<char>::data\" не инициализирована. Всегда инициализируйте переменную-член (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Тимофей/Desktop/papka huyapka/programming/1  kurs/profession/lab7/WeatherService/WeatherService/pugixml.cpp"
+                },
+                "region": {
+                  "startLine": 4921,
+                  "startColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "pugi::impl::`anonymous-namespace'::xml_stream_chunk<char>::{ctor}",
+                  "decoratedName": "??0?$xml_stream_chunk@D@?A0x974899f5@impl@pugi@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "pugi::impl::`anonymous-namespace'::xml_stream_chunk<char>::data"
+          }
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.38.33134.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///C:/Users/Тимофей/Desktop/papka huyapka/programming/1  kurs/profession/lab7/WeatherService/WeatherService/pugixml.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "77eba07c886d3cc2caa2c3cd4003811c1dc762dbd10245515d3bb0700a6ef391"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/тимофей/desktop/papka huyapka/programming/1  kurs/profession/lab7/weatherservice/weatherservice/pugixml.hpp"
+          },
+          "hashes": {
+            "sha-256": "81e5bf9531baed84294d0cbe38caadb6d90d10f77c2d793e2dce8c5f5eaf6c26"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/тимофей/desktop/papka huyapka/programming/1  kurs/profession/lab7/weatherservice/weatherservice/pugiconfig.hpp"
+          },
+          "hashes": {
+            "sha-256": "8e57de829b70ef5e4a0e066a1f0974fa3718a0ee5c7ab1cda6168cf560e824f8"
+          }
+        }
+      ]
+    }
+  ]
+}

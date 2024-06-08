@@ -1,0 +1,486 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Тимофей\Desktop\papka huyapka\programming\1  kurs\profession\lab7\WeatherService\WeatherService\</FILEPATH>
+      <FILENAME>pugixml.cpp</FILENAME>
+      <LINE>1112</LINE>
+      <COLUMN>2</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Переменная "pugi::xml_attribute_struct::header" не инициализирована. Всегда инициализируйте переменную-член (type.6).</DESCRIPTION>
+    <FUNCTION>pugi::xml_attribute_struct::{ctor}</FUNCTION>
+    <DECORATED>??0xml_attribute_struct@pugi@@QEAA@PEAUxml_memory_page@?A0x974899f5@impl@1@@Z</DECORATED>
+    <FUNCLINE>1112</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>pugi::xml_attribute_struct::header</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Тимофей\Desktop\papka huyapka\programming\1  kurs\profession\lab7\WeatherService\WeatherService\</FILEPATH>
+      <FILENAME>pugixml.cpp</FILENAME>
+      <LINE>1128</LINE>
+      <COLUMN>2</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Переменная "pugi::xml_node_struct::header" не инициализирована. Всегда инициализируйте переменную-член (type.6).</DESCRIPTION>
+    <FUNCTION>pugi::xml_node_struct::{ctor}</FUNCTION>
+    <DECORATED>??0xml_node_struct@pugi@@QEAA@PEAUxml_memory_page@?A0x974899f5@impl@1@W4xml_node_type@1@@Z</DECORATED>
+    <FUNCLINE>1128</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>pugi::xml_node_struct::header</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Тимофей\Desktop\papka huyapka\programming\1  kurs\profession\lab7\WeatherService\WeatherService\</FILEPATH>
+      <FILENAME>pugixml.cpp</FILENAME>
+      <LINE>3748</LINE>
+      <COLUMN>2</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Переменная "pugi::impl::`anonymous-namespace'::xml_buffered_writer::scratch" не инициализирована. Всегда инициализируйте переменную-член (type.6).</DESCRIPTION>
+    <FUNCTION>pugi::impl::`anonymous-namespace'::xml_buffered_writer::{ctor}</FUNCTION>
+    <DECORATED>??0xml_buffered_writer@?A0x974899f5@impl@pugi@@QEAA@AEAVxml_writer@3@W4xml_encoding@3@@Z</DECORATED>
+    <FUNCLINE>3748</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>pugi::impl::`anonymous-namespace'::xml_buffered_writer::scratch</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Тимофей\Desktop\papka huyapka\programming\1  kurs\profession\lab7\WeatherService\WeatherService\</FILEPATH>
+      <FILENAME>pugixml.cpp</FILENAME>
+      <LINE>3748</LINE>
+      <COLUMN>2</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Переменная "pugi::impl::`anonymous-namespace'::xml_buffered_writer::buffer" не инициализирована. Всегда инициализируйте переменную-член (type.6).</DESCRIPTION>
+    <FUNCTION>pugi::impl::`anonymous-namespace'::xml_buffered_writer::{ctor}</FUNCTION>
+    <DECORATED>??0xml_buffered_writer@?A0x974899f5@impl@pugi@@QEAA@AEAVxml_writer@3@W4xml_encoding@3@@Z</DECORATED>
+    <FUNCLINE>3748</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>pugi::impl::`anonymous-namespace'::xml_buffered_writer::buffer</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Тимофей\Desktop\papka huyapka\programming\1  kurs\profession\lab7\WeatherService\WeatherService\</FILEPATH>
+      <FILENAME>pugixml.cpp</FILENAME>
+      <LINE>4519</LINE>
+      <COLUMN>8</COLUMN>
+    </SFA>
+    <DEFECTCODE>28182</DEFECTCODE>
+    <DESCRIPTION>Разыменование пустого (NULL) указателя. "dit" содержит то же значение NULL, которое находилось в "copy". </DESCRIPTION>
+    <FUNCTION>pugi::impl::`anonymous-namespace'::node_copy_tree</FUNCTION>
+    <DECORATED>?node_copy_tree@?A0x974899f5@impl@pugi@@YAXPEAUxml_node_struct@3@0@Z</DECORATED>
+    <FUNCLINE>4476</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>3</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\Тимофей\Desktop\papka huyapka\programming\1  kurs\profession\lab7\WeatherService\WeatherService\</FILEPATH>
+        <FILENAME>pugixml.cpp</FILENAME>
+        <LINE>4478</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Тимофей\Desktop\papka huyapka\programming\1  kurs\profession\lab7\WeatherService\WeatherService\</FILEPATH>
+        <FILENAME>pugixml.cpp</FILENAME>
+        <LINE>4479</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Тимофей\Desktop\papka huyapka\programming\1  kurs\profession\lab7\WeatherService\WeatherService\</FILEPATH>
+        <FILENAME>pugixml.cpp</FILENAME>
+        <LINE>4481</LINE>
+        <COLUMN>20</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Тимофей\Desktop\papka huyapka\programming\1  kurs\profession\lab7\WeatherService\WeatherService\</FILEPATH>
+        <FILENAME>pugixml.cpp</FILENAME>
+        <LINE>4483</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Тимофей\Desktop\papka huyapka\programming\1  kurs\profession\lab7\WeatherService\WeatherService\</FILEPATH>
+        <FILENAME>pugixml.cpp</FILENAME>
+        <LINE>4484</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Тимофей\Desktop\papka huyapka\programming\1  kurs\profession\lab7\WeatherService\WeatherService\</FILEPATH>
+        <FILENAME>pugixml.cpp</FILENAME>
+        <LINE>4486</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Тимофей\Desktop\papka huyapka\programming\1  kurs\profession\lab7\WeatherService\WeatherService\</FILEPATH>
+        <FILENAME>pugixml.cpp</FILENAME>
+        <LINE>4489</LINE>
+        <COLUMN>3</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Тимофей\Desktop\papka huyapka\programming\1  kurs\profession\lab7\WeatherService\WeatherService\</FILEPATH>
+        <FILENAME>pugixml.cpp</FILENAME>
+        <LINE>4492</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Тимофей\Desktop\papka huyapka\programming\1  kurs\profession\lab7\WeatherService\WeatherService\</FILEPATH>
+        <FILENAME>pugixml.cpp</FILENAME>
+        <LINE>4494</LINE>
+        <COLUMN>21</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Тимофей\Desktop\papka huyapka\programming\1  kurs\profession\lab7\WeatherService\WeatherService\</FILEPATH>
+        <FILENAME>pugixml.cpp</FILENAME>
+        <LINE>4496</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Тимофей\Desktop\papka huyapka\programming\1  kurs\profession\lab7\WeatherService\WeatherService\</FILEPATH>
+        <FILENAME>pugixml.cpp</FILENAME>
+        <LINE>4498</LINE>
+        <COLUMN>23</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Тимофей\Desktop\papka huyapka\programming\1  kurs\profession\lab7\WeatherService\WeatherService\</FILEPATH>
+        <FILENAME>pugixml.cpp</FILENAME>
+        <LINE>4500</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Тимофей\Desktop\papka huyapka\programming\1  kurs\profession\lab7\WeatherService\WeatherService\</FILEPATH>
+        <FILENAME>pugixml.cpp</FILENAME>
+        <LINE>4502</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Тимофей\Desktop\papka huyapka\programming\1  kurs\profession\lab7\WeatherService\WeatherService\</FILEPATH>
+        <FILENAME>pugixml.cpp</FILENAME>
+        <LINE>4503</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Тимофей\Desktop\papka huyapka\programming\1  kurs\profession\lab7\WeatherService\WeatherService\</FILEPATH>
+        <FILENAME>pugixml.cpp</FILENAME>
+        <LINE>4486</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Тимофей\Desktop\papka huyapka\programming\1  kurs\profession\lab7\WeatherService\WeatherService\</FILEPATH>
+        <FILENAME>pugixml.cpp</FILENAME>
+        <LINE>4489</LINE>
+        <COLUMN>3</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Тимофей\Desktop\papka huyapka\programming\1  kurs\profession\lab7\WeatherService\WeatherService\</FILEPATH>
+        <FILENAME>pugixml.cpp</FILENAME>
+        <LINE>4492</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Тимофей\Desktop\papka huyapka\programming\1  kurs\profession\lab7\WeatherService\WeatherService\</FILEPATH>
+        <FILENAME>pugixml.cpp</FILENAME>
+        <LINE>4494</LINE>
+        <COLUMN>21</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Тимофей\Desktop\papka huyapka\programming\1  kurs\profession\lab7\WeatherService\WeatherService\</FILEPATH>
+        <FILENAME>pugixml.cpp</FILENAME>
+        <LINE>4496</LINE>
+        <COLUMN>8</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>"dit" может быть равно NULL (Пропустить эту ветвь)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Тимофей\Desktop\papka huyapka\programming\1  kurs\profession\lab7\WeatherService\WeatherService\</FILEPATH>
+        <FILENAME>pugixml.cpp</FILENAME>
+        <LINE>4512</LINE>
+        <COLUMN>11</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Пропустить эту ветвь (предполагается, что "sit-&gt;next_sibling" равно false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Тимофей\Desktop\papka huyapka\programming\1  kurs\profession\lab7\WeatherService\WeatherService\</FILEPATH>
+        <FILENAME>pugixml.cpp</FILENAME>
+        <LINE>4518</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Тимофей\Desktop\papka huyapka\programming\1  kurs\profession\lab7\WeatherService\WeatherService\</FILEPATH>
+        <FILENAME>pugixml.cpp</FILENAME>
+        <LINE>4519</LINE>
+        <COLUMN>8</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>"dit" разыменовано, но, возможно, по-прежнему равно NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Тимофей\Desktop\papka huyapka\programming\1  kurs\profession\lab7\WeatherService\WeatherService\</FILEPATH>
+      <FILENAME>pugixml.cpp</FILENAME>
+      <LINE>8529</LINE>
+      <COLUMN>9</COLUMN>
+    </SFA>
+    <DEFECTCODE>6054</DEFECTCODE>
+    <DESCRIPTION>Возможно, строка "mantissa_buffer" не завершается нулем.</DESCRIPTION>
+    <FUNCTION>pugi::impl::`anonymous-namespace'::convert_number_to_string</FUNCTION>
+    <DECORATED>?convert_number_to_string@?A0x974899f5@impl@pugi@@YA?AVxpath_string@123@NPEAUxpath_allocator@123@@Z</DECORATED>
+    <FUNCLINE>8515</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>3</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\Тимофей\Desktop\papka huyapka\programming\1  kurs\profession\lab7\WeatherService\WeatherService\</FILEPATH>
+        <FILENAME>pugixml.cpp</FILENAME>
+        <LINE>8518</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Тимофей\Desktop\papka huyapka\programming\1  kurs\profession\lab7\WeatherService\WeatherService\</FILEPATH>
+        <FILENAME>pugixml.cpp</FILENAME>
+        <LINE>8519</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Тимофей\Desktop\papka huyapka\programming\1  kurs\profession\lab7\WeatherService\WeatherService\</FILEPATH>
+        <FILENAME>pugixml.cpp</FILENAME>
+        <LINE>8522</LINE>
+        <COLUMN>7</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>Это выражение может привести к тому, что "mantissa_buffer" не будет завершаться нулем</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Тимофей\Desktop\papka huyapka\programming\1  kurs\profession\lab7\WeatherService\WeatherService\</FILEPATH>
+        <FILENAME>pugixml.cpp</FILENAME>
+        <LINE>8524</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Тимофей\Desktop\papka huyapka\programming\1  kurs\profession\lab7\WeatherService\WeatherService\</FILEPATH>
+        <FILENAME>pugixml.cpp</FILENAME>
+        <LINE>8525</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Тимофей\Desktop\papka huyapka\programming\1  kurs\profession\lab7\WeatherService\WeatherService\</FILEPATH>
+        <FILENAME>pugixml.cpp</FILENAME>
+        <LINE>8526</LINE>
+        <COLUMN>37</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>"mantissa_buffer" является выходными данными из "pugi::impl::`anonymous-namespace'::convert_number_to_mantissa_exponent" (объявлено в строке 8472)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Тимофей\Desktop\papka huyapka\programming\1  kurs\profession\lab7\WeatherService\WeatherService\</FILEPATH>
+        <FILENAME>pugixml.cpp</FILENAME>
+        <LINE>8529</LINE>
+        <COLUMN>9</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>"mantissa_buffer" является входными данными для "strlen" (объявлено в c:\program files (x86)\windows kits\10\include\10.0.22621.0\ucrt\string.h:215)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\Тимофей\Desktop\papka huyapka\programming\1  kurs\profession\lab7\WeatherService\WeatherService\</FILEPATH>
+        <FILENAME>pugixml.cpp</FILENAME>
+        <LINE>8529</LINE>
+        <COLUMN>9</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>"mantissa_buffer" должно завершаться нулем в соответствии с SAL-аннотацией для "strlen"</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Тимофей\Desktop\papka huyapka\programming\1  kurs\profession\lab7\WeatherService\WeatherService\</FILEPATH>
+      <FILENAME>pugixml.cpp</FILENAME>
+      <LINE>8860</LINE>
+      <COLUMN>2</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Переменная "pugi::impl::`anonymous-namespace'::xpath_variable_boolean::name" не инициализирована. Всегда инициализируйте переменную-член (type.6).</DESCRIPTION>
+    <FUNCTION>pugi::impl::`anonymous-namespace'::xpath_variable_boolean::{ctor}</FUNCTION>
+    <DECORATED>??0xpath_variable_boolean@?A0x974899f5@impl@pugi@@QEAA@XZ</DECORATED>
+    <FUNCLINE>8860</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>pugi::impl::`anonymous-namespace'::xpath_variable_boolean::name</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Тимофей\Desktop\papka huyapka\programming\1  kurs\profession\lab7\WeatherService\WeatherService\</FILEPATH>
+      <FILENAME>pugixml.cpp</FILENAME>
+      <LINE>8870</LINE>
+      <COLUMN>2</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Переменная "pugi::impl::`anonymous-namespace'::xpath_variable_number::name" не инициализирована. Всегда инициализируйте переменную-член (type.6).</DESCRIPTION>
+    <FUNCTION>pugi::impl::`anonymous-namespace'::xpath_variable_number::{ctor}</FUNCTION>
+    <DECORATED>??0xpath_variable_number@?A0x974899f5@impl@pugi@@QEAA@XZ</DECORATED>
+    <FUNCLINE>8870</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>pugi::impl::`anonymous-namespace'::xpath_variable_number::name</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Тимофей\Desktop\papka huyapka\programming\1  kurs\profession\lab7\WeatherService\WeatherService\</FILEPATH>
+      <FILENAME>pugixml.cpp</FILENAME>
+      <LINE>8880</LINE>
+      <COLUMN>2</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Переменная "pugi::impl::`anonymous-namespace'::xpath_variable_string::name" не инициализирована. Всегда инициализируйте переменную-член (type.6).</DESCRIPTION>
+    <FUNCTION>pugi::impl::`anonymous-namespace'::xpath_variable_string::{ctor}</FUNCTION>
+    <DECORATED>??0xpath_variable_string@?A0x974899f5@impl@pugi@@QEAA@XZ</DECORATED>
+    <FUNCLINE>8880</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>pugi::impl::`anonymous-namespace'::xpath_variable_string::name</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Тимофей\Desktop\papka huyapka\programming\1  kurs\profession\lab7\WeatherService\WeatherService\</FILEPATH>
+      <FILENAME>pugixml.cpp</FILENAME>
+      <LINE>8895</LINE>
+      <COLUMN>2</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Переменная "pugi::impl::`anonymous-namespace'::xpath_variable_node_set::name" не инициализирована. Всегда инициализируйте переменную-член (type.6).</DESCRIPTION>
+    <FUNCTION>pugi::impl::`anonymous-namespace'::xpath_variable_node_set::{ctor}</FUNCTION>
+    <DECORATED>??0xpath_variable_node_set@?A0x974899f5@impl@pugi@@QEAA@XZ</DECORATED>
+    <FUNCLINE>8895</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>pugi::impl::`anonymous-namespace'::xpath_variable_node_set::name</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Тимофей\Desktop\papka huyapka\programming\1  kurs\profession\lab7\WeatherService\WeatherService\</FILEPATH>
+      <FILENAME>pugixml.cpp</FILENAME>
+      <LINE>10510</LINE>
+      <COLUMN>2</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Переменная "pugi::impl::`anonymous-namespace'::xpath_ast_node::_data" не инициализирована. Всегда инициализируйте переменную-член (type.6).</DESCRIPTION>
+    <FUNCTION>pugi::impl::`anonymous-namespace'::xpath_ast_node::{ctor}</FUNCTION>
+    <DECORATED>??0xpath_ast_node@?A0x974899f5@impl@pugi@@QEAA@W4ast_type_t@123@W4xpath_value_type@3@PEAV0123@2@Z</DECORATED>
+    <FUNCLINE>10510</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>pugi::impl::`anonymous-namespace'::xpath_ast_node::_data</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Тимофей\Desktop\papka huyapka\programming\1  kurs\profession\lab7\WeatherService\WeatherService\</FILEPATH>
+      <FILENAME>pugixml.cpp</FILENAME>
+      <LINE>10522</LINE>
+      <COLUMN>2</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Переменная "pugi::impl::`anonymous-namespace'::xpath_ast_node::_data" не инициализирована. Всегда инициализируйте переменную-член (type.6).</DESCRIPTION>
+    <FUNCTION>pugi::impl::`anonymous-namespace'::xpath_ast_node::{ctor}</FUNCTION>
+    <DECORATED>??0xpath_ast_node@?A0x974899f5@impl@pugi@@QEAA@W4ast_type_t@123@PEAV0123@1W4predicate_t@123@@Z</DECORATED>
+    <FUNCLINE>10522</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>pugi::impl::`anonymous-namespace'::xpath_ast_node::_data</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Тимофей\Desktop\papka huyapka\programming\1  kurs\profession\lab7\WeatherService\WeatherService\</FILEPATH>
+      <FILENAME>pugixml.cpp</FILENAME>
+      <LINE>12294</LINE>
+      <COLUMN>2</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Переменная "pugi::impl::`anonymous-namespace'::xpath_parser::_scratch" не инициализирована. Всегда инициализируйте переменную-член (type.6).</DESCRIPTION>
+    <FUNCTION>pugi::impl::`anonymous-namespace'::xpath_parser::{ctor}</FUNCTION>
+    <DECORATED>??0xpath_parser@?A0x974899f5@impl@pugi@@QEAA@PEBDPEAVxpath_variable_set@3@PEAUxpath_allocator@123@PEAUxpath_parse_result@3@@Z</DECORATED>
+    <FUNCLINE>12294</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>pugi::impl::`anonymous-namespace'::xpath_parser::_scratch</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Тимофей\Desktop\papka huyapka\programming\1  kurs\profession\lab7\WeatherService\WeatherService\</FILEPATH>
+      <FILENAME>pugixml.cpp</FILENAME>
+      <LINE>4921</LINE>
+      <COLUMN>2</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Переменная "pugi::impl::`anonymous-namespace'::xml_stream_chunk&lt;wchar_t&gt;::data" не инициализирована. Всегда инициализируйте переменную-член (type.6).</DESCRIPTION>
+    <FUNCTION>pugi::impl::`anonymous-namespace'::xml_stream_chunk&lt;wchar_t&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$xml_stream_chunk@_W@?A0x974899f5@impl@pugi@@QEAA@XZ</DECORATED>
+    <FUNCLINE>4921</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>pugi::impl::`anonymous-namespace'::xml_stream_chunk&lt;wchar_t&gt;::data</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Тимофей\Desktop\papka huyapka\programming\1  kurs\profession\lab7\WeatherService\WeatherService\</FILEPATH>
+      <FILENAME>pugixml.cpp</FILENAME>
+      <LINE>4921</LINE>
+      <COLUMN>2</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Переменная "pugi::impl::`anonymous-namespace'::xml_stream_chunk&lt;char&gt;::data" не инициализирована. Всегда инициализируйте переменную-член (type.6).</DESCRIPTION>
+    <FUNCTION>pugi::impl::`anonymous-namespace'::xml_stream_chunk&lt;char&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$xml_stream_chunk@D@?A0x974899f5@impl@pugi@@QEAA@XZ</DECORATED>
+    <FUNCLINE>4921</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>pugi::impl::`anonymous-namespace'::xml_stream_chunk&lt;char&gt;::data</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>
